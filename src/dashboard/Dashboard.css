@@ -1,0 +1,19 @@
+.dashboard-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     background: #f8f8ff;
+     height: 90vh;
+     padding: 40px;
+}
+.dashboard-wrapper > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-wrapper > div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

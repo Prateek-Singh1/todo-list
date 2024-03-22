@@ -1,0 +1,40 @@
+.page-details-wrapper{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page-details-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.page-details-description{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page-details-description div{
+    display: flex;
+    align-items: center;
+}
+.page-details-description div > input{
+    font-size: 15px;
+    font-weight: 500;
+    border: unset;
+    color: rgb(170, 167, 167);
+}
+.page-details-items{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.page-details-items > ul {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .page-details-description{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
